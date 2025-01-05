@@ -1,0 +1,690 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+header{
+    background-color: rgb(250, 223, 50);
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+header .container{
+    display: flex;
+    align-content: space-between;
+}
+.dh1{
+    margin-right: 300px;
+}
+.dh1 span{
+    margin-right: 10px;
+}
+.dh2 i{
+    padding-left: 10px;
+}
+nav{
+    background-color: rgb(35, 35, 59);
+  
+}
+nav a{
+    color: #fff;
+    text-transform: capitalize;
+}
+nav a:hover{
+    color: rgb(250, 223, 50);
+}
+nav span{
+    color: rgb(250, 223, 50);
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+.navbar-brand p{
+    text-transform: lowercase;
+}
+nav ul i{
+    color: rgb(250, 223, 50);
+   margin-top: 13px;
+   margin-left: 20px;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+/*section 1*/
+.sec1{
+background-image: url(../img6/banner.jpg);
+background-size: cover;
+
+background-color: rgba(28, 27, 27, 0.9);
+background-blend-mode: overlay;
+
+}
+.sec1 span{
+    padding-top: 200px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sec1 h1{
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+h1.orange{
+    color: rgb(246, 191, 9);
+    padding-bottom: 10px;
+}
+.sec1 p{
+   
+    align-items: center;
+    color: #fff;
+}
+.sec1 button{
+    margin-top: 20px;
+    color: rgb(239, 158, 7);
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 7px 15px;
+    margin-bottom: 100px;
+    position: relative;
+   left: 400px;
+    justify-items: center;
+    margin-right: 20px;
+    border-color: rgb(239, 158, 7);
+}
+/*section 2*/
+.sec2 .container{
+    display: flex;
+    margin-top: 60px;
+}
+.hsec{
+    width: 600px;
+}
+.sec2 h2{
+  color:  rgb(246, 191, 9);
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+
+}
+.sec2 h3{
+    color: rgb(43, 42, 42);
+}
+.sec2 p{
+    text-align: justify;
+}
+.sec2 button{
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(249, 165, 9);
+    border-radius: 20px;
+    border-color:rgb(249, 165, 9) ;
+    padding: 10px 25px;
+}
+.sec2 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+}
+/*section 3*/
+.sec3 {
+    background-image: url(../img6/bg4.jpg);
+    background-size: cover;
+    background-color: rgba(22, 21, 21, 0.8);
+    background-blend-mode: overlay;
+}
+.sec3 p{
+    text-align: center;
+    color: #fff;
+}
+.sec3 h2{
+    text-align: center;
+    color: rgb(246, 191, 9);
+    padding-top: 100px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.collec{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.sec3 .card{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 30px;
+}
+.card i{
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    background-color: rgb(249, 165, 9);
+    font-size: 50px;
+   padding-top: 20px;
+   padding-left: 20px;
+   position: relative;
+   top: -60px;
+   left: 80px;
+}
+ 
+.card-title{
+    color: rgb(246, 191, 9);
+    text-transform: uppercase;
+    text-align: center;
+}
+p.card-text{
+    text-align: center;
+    color:#fff;
+}
+/*section 4*/
+.sec4 h2{
+    color: rgb(246, 191, 9);
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.serv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.card span{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(24, 22, 22, 0.9);
+}
+.card img:hover{
+    transform: scale(0.9);
+}
+.sec4 p{
+    color: rgb(25, 25, 51);
+    text-align: justify;
+}
+.sec4 .card a{
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(246, 191, 9);
+    border-bottom: rgb(246, 191, 9);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+/*section 5*/
+.sec5{
+    background-image: url(../img6/bg2.jpg);
+    background-size: cover;
+    background-color: rgba(45, 35, 35, 0.9);
+    background-blend-mode: overlay;
+}
+.sec5 h2{
+    padding-top: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.sec5 p{
+    text-align: center;
+    width: 800px;
+    margin-left: 100px;
+    color: #fff;
+}
+.spans{
+padding-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.spans .s1{
+    background-color: rgb(138, 128, 128);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.spans span{
+    margin-left: 30px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+padding-bottom: 60px;
+}
+.im1 img{
+    width: 400px;
+    height: 400px;
+}
+.im2{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    
+}
+.im2 img{
+    width: 250px;
+    height: 200px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+/*section 6*/
+.sec6{
+    background-image: url(../img6/bg3.jpg);
+    background-size: cover;
+}
+.sec6 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(36, 36, 54);
+    padding-top: 40px;
+    text-align: center;
+}
+.sec6 p{
+    color: rgb(59, 59, 71);
+    text-align: center;
+}
+.rev{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cardrev{
+    background-color: rgb(229, 226, 226);
+    width: 350px;
+}
+.cardrev i{
+    font-size: 60px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color:rgb(106, 102, 102);
+}
+.cardrev p{
+    text-align: justify;
+    position: relative;
+    left: 70px;
+    top: -50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 250px;
+}
+
+.cardrev2{
+    background-color: rgb(251, 194, 88);
+    width: 350px;
+}
+.cardrev2 i{
+    font-size: 60px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: #fff;
+}
+.cardrev2 p{
+    text-align: justify;
+    position: relative;
+    left: 70px;
+    top: -50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 250px;
+    color: #fff;
+}
+
+ .revo{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-color: rgb(38, 38, 52);
+  margin-left: 90px;
+    padding-top: 20px;
+
+}
+.rev span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(32, 32, 62);
+    display: block;
+    padding-top: 10px;
+    margin-left: 120px;
+    
+}
+.tr i{
+    
+    position: relative;
+    left: 160px;
+    top: -32px;
+    font-size: 40px;
+    color: rgb(229, 226, 226);
+    
+}
+.tr2 i{
+    
+    position: relative;
+    left: 160px;
+    top: -32px;
+    font-size: 40px;
+    color: rgb(251, 194, 88);
+    
+}
+/*section 7*/
+.sec7{
+    background-color: rgb(244, 187, 80);
+}
+.ask{
+    width: 400px;
+}
+.sec7 h2{
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(76, 74, 74);
+    text-transform: uppercase;
+}
+.sec7 span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(76, 74, 74);
+    display: block;
+}
+.sec7 .container{
+    display: flex;
+}
+.form{
+    width: 500px;
+    position: relative;
+    left: 500px;
+    top: -70px;
+}
+.form input{
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+    padding: 10px auto;
+    height: 40px;
+}
+.in1{
+    width: 200px;
+}
+.in2{
+    width: 300px;
+}
+.form button{
+    background-color: rgb(76, 74, 74);
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+/*section 8*/
+.sec8{
+    background-color: rgb(88, 87, 87);
+    height: 650px;
+}
+div .foot{
+    position: relative;
+    top: 30px;
+}
+.sec8 footer{
+   position: relative;
+   top: 60px;
+    background-image: url(../img6/bg2.jpg);
+    background-size: cover;
+    background-color: rgb(13, 13, 13,0.5);
+    background-blend-mode: overlay;
+    padding-top: 40px;
+}
+.orange2{
+    color: rgb(249, 168, 17);
+}
+.sec8 footer .container{
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer div{
+    width: 200px;
+}
+.f1{
+    width: 300px;
+}
+.f1 i{
+    margin-left: 5px;
+    color: rgb(11, 10, 10);
+    background-color: rgb(238, 158, 10);
+    font-size: 25px;
+    border-radius: 20px;
+    border-color: rgb(238, 158, 10);
+    padding: 10px 10px;
+}
+footer h3{
+    text-transform: capitalize;
+}
+footer h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sec8 .pf{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+footer div.f3 span{
+    text-transform: uppercase;
+   
+    background-color: transparent;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    border: thin #fff solid;
+    line-height: 2px;
+    padding: 5px 10px;
+   
+}
+.f4 i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+@media(max-width:1400px){
+    .container{
+		width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media(max-width:769px){
+	.container{
+		width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+
+	} 
+    body {
+        width: 769px;
+        margin: 0;
+        padding: 0;
+    }
+    .dh1{
+        margin-right: 70px;
+        width: 370px;
+    }
+    nav button{
+        visibility: visible;
+        color: #fff;
+        border-color: #fff;
+        
+
+    }
+    .navbar-toggler-icon{
+        color: #fff;
+    }
+    .sec1 span{
+        text-align: left;
+    }
+    .sec1 h1{
+        text-align: left;
+    }
+    .sec1 button{
+        left: 10px;
+    }
+    .sec2 .container{
+        display: block;
+    }
+    .sec2 img{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .collec{
+        flex-wrap: wrap;
+        
+    }
+    .sec3 .card{
+        margin-bottom: 70px;
+    }
+    .serv{
+        flex-wrap: wrap;
+    }
+    .sec4 .card{
+        margin-bottom: 20px;
+    }
+    .sec5 p{
+        margin-left: 0px;
+        width: auto;
+    }
+    .imgs{
+        display: block;
+    }
+    .im1{
+        margin-left: 140px;
+        padding-bottom: 10px;
+    }
+    .im2{
+        margin-left: 80px;
+    }
+    .rev{
+        flex-wrap: wrap;
+        margin-left: 160px;
+    }
+    .cardrev2{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .form{
+        position: static;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sec8{
+        height: auto;
+    }
+    .sec8 footer .container{
+        flex-wrap: wrap;
+    }
+    .f3{
+        margin-top: 20px;
+    }
+    .f4{
+        margin-top: 20px;
+    }
+    .sec8 .pf{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:576px){
+    body {
+        width: 570px;
+        margin: 0;
+        padding: 0;
+    }
+	.container{
+		width: 520px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+    header .container{
+        display: block;
+    }
+    .dh1{
+        width: 100%;
+        margin-right: 0px;
+    }
+    nav button{
+        visibility: visible;
+        color: #fff;
+        border-color: #fff;
+        
+    }
+    .hsec{
+        width: 500px;
+    }
+    .sec3{
+        height: 1800px;
+    }
+    .collec{
+        display: block;
+        width: auto;
+    }
+    .sec3 .card{
+        margin-bottom: 70px;
+        margin-left: 110px;
+    }
+    .sec4 .card{
+        margin-left: 120px;
+    }
+    .spans{
+        width:auto;
+    }
+    .im1{
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+    .im2{
+        margin-left: 20px;
+        width: auto;
+    }
+    .sec6 .p6 {
+        width: 400px;
+        margin-left: 60px;
+    }
+    .rev{
+        margin-left: 100px;
+        
+    }
+    .sec7 .container{
+        width: 520px;
+    }
+
+.sec8 footer .container{
+        display: block;
+    }
+    .f4{
+        padding-bottom: 15px;
+    }
+    
+}
